@@ -2,11 +2,11 @@
 ---@class AceEvent-3.0
 local AceEvent = {}
 
----@param event string
+---@param event WowEvent
 ---@param callback? string | function
 function AceEvent:RegisterEvent(event, callback) end
 
----@param event string
+---@param event WowEvent
 function AceEvent:UnregisterEvent(event) end
 
 function AceEvent:UnregisterAllEvents() end
