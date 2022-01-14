@@ -38,7 +38,7 @@ end
 function Object:Constructor()
 end
 
----@param method: string
+---@param method string
 ---@vararg any[]
 function Object:SuperCall(method, ...)
 end
