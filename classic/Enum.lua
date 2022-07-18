@@ -4,6 +4,7 @@ local ItemQuality = {}
 
 ItemQuality.Good = Enum.ItemQuality.Uncommon
 ItemQuality.Superior = Enum.ItemQuality.Rare
+ItemQuality.Standard = Enum.ItemQuality.Common
 
 ---@class ItemGemSubclass
 local ItemGemSubclass = {}
