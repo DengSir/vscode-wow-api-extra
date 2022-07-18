@@ -3,7 +3,7 @@
 local LibClass = {}
 
 ---@param name string
----@param super Object
+---@param super Object | FrameType
 ---@return any
 function LibClass:NewClass(name, super) end
 
